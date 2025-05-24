@@ -1,0 +1,9 @@
+type Book {
+    title: String!
+    description: String!
+}
+
+
+type Query {
+    findAllBooks: [Book]!
+}
